@@ -1,5 +1,5 @@
-#!/bin/bash
 #include <stdlib.h>
+#include <time.h>
 int main(void)
 {
 	int x = get_int ("input x :");
