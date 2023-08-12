@@ -2,8 +2,8 @@
 #include <stdio.h>
 #include <time.h>
 /**
- *main - entry point
- *description: true or false validation
+ *main - determination if anumber is positive or negative or  zero
+ *
  *Return : 0 (success)
  */
 int main(void)
