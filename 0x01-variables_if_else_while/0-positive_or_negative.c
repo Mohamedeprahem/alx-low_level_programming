@@ -2,23 +2,24 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Entry point
+ *main - Entry point
  *
- * Return: Always 0 (Success)
+ *Return: Always 0 (Success)
  */
 int main(void)
 {
 int x = get_int ("input x :");
 if (x > 0)
 {
-printf("is positive");
+printf("%d is positive\n" x);
 }
 else if (x == 0)
 {
-printf("is zero");
+printf("%d is zero\n" x);
 }
 else
 {
-printf("is negative"); 
+printf("%d is negative\n" x);
 }
+return (0);
 }
