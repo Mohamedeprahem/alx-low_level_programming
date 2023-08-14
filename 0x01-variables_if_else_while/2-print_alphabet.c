@@ -6,14 +6,14 @@
  * main - Entry point
  *
  *
- * Description : print the last digit of the number stored in the variable n.
+ * Description : print alphabets
  *
  * Return: 0 (success)
 */
 int main(void)
 {
 char ch = 'a';
-while (ch <= 'z');
+while (ch <= 'z')
 {
 putchar(ch);
 ch++;
