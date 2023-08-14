@@ -19,7 +19,7 @@ n = rand() - RAND_MAX / 2;
 last_digit = n %10;
 
 if (last_digit > 5)
-printf(" and is greater than 5 %d \n") ,last_digit ;
+printf(" and is greater than 5 int %d \n") ,last_digit ;
 else if (last_digit == 0)
 printf("%d %d and is 0 \n") n, last_digit;
 else if (last_digit < 6 && last_digit !=0) 
