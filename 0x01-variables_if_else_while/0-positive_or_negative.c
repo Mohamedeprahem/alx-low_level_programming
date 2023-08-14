@@ -3,16 +3,17 @@
 #include <stdio.h>
 
 /**
- * main - Entry piont
+ * main -  Positive anything is better than negative nothing
  *
  * Description : determination if anumber is positive or negative or  zero.
  *
- * Return : 0 (success)
+ * Return: 0 (success)
 */
 int main(void)
 {
 
 int n;
+
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n > 0)
