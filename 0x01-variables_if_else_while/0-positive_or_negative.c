@@ -1,13 +1,17 @@
 #include <stdlib.h>
-#include <stdio.h>
 #include <time.h>
+#include <stdio.h>
+
 /**
- *main - determination if anumber is positive or negative or  zero
+ * main - Entry piont
  *
- *Return : 0 (success)
- */
+ * Description : determination if anumber is positive or negative or  zero.
+ *
+ * Return : 0 (success)
+*/
 int main(void)
 {
+
 int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
