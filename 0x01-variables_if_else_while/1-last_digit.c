@@ -12,18 +12,18 @@
 */
 int main(void)
 {
-	int n, last_digit;
+	int n, digit;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 last_digit = n %10;
 
 if (last_digit > 5)
-printf(" last digit of %d is %d  greater than 5  \n") ,last_digit ;
+printf(" last digit of %d is %d  greater than 5  \n") n  ,digit ;
 else if (last_digit == 0)
-printf("%d %d and is 0 \n") n, last_digit;
+printf(" last digit of %d and is 0 \n") n, digit;
 else if (last_digit < 6 && last_digit !=0) 
-printf("%d %d and is less than 6 and not 0 \n") n, last_digit;
+printf("%d %d and is less than 6 and not 0 \n") n, digit;
 return (0);
 }
 
