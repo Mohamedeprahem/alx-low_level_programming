@@ -19,7 +19,6 @@ putchar(num + 48);
 if (num != 9)
 {
 putchar(',');
-putchar(',');
 }
 num = num + 1;
 }
