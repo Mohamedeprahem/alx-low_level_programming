@@ -16,7 +16,7 @@ int number = 0;
 while (number <= 9)
 {
 printf("%d single digit /n", number);
-number = number + 1
+number = number + 1;
 }
 return (0);
 }
