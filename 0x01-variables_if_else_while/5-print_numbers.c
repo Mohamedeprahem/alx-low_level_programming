@@ -15,8 +15,9 @@ int main(void)
 int number = 0;
 while (number <= 9)
 {
-printf("%d /n", number);
+printf("%d", number);
 number = number + 1;
 }
+printf("\n");
 return (0);
 }
