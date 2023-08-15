@@ -6,7 +6,7 @@
  * main - Entry point
  *
  *
- * Description : numberz
+ * Description : print the lowercase alphabet in reverse
  *
  * Return: 0 (success)
 */
@@ -19,4 +19,5 @@ putchar(ch);
 ch--;
 }
 putchar('\n');
+return (0);
 }
