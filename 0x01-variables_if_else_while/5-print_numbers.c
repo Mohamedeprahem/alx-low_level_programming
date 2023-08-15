@@ -13,7 +13,7 @@
 int main(void)
 {
 int number = 0;
-while number <= 9
+while (number <= 9)
 {
 printf("%d single digit /n", number);
 number = number + 1
