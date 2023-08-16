@@ -1,5 +1,3 @@
-#include <stdlib.h>
-#include <time.h>
 #include <main.h>
 
 /**
@@ -12,6 +10,6 @@
 */
 int main(void)
 {
-printf(_putchar \n);
+_putchar ('_', 'p', 'u', 't', 'c', 'h', 'a', 'r');
 return (0);
 }
