@@ -5,7 +5,8 @@
  *
  * @a: first integer
  * @b: second integer
- * Return: addition of the multiplication
+ *
+ * Return: return results
 */
 int mul(int a, int b);
 {
