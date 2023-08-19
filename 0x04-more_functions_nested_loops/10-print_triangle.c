@@ -12,9 +12,10 @@ _putchar('\n');
 else
 {
 int x, y;
+
 for (x = 1; x <= size; x++)
 {
-for (y = 1; y < size; y++)
+for (y = x; y < size; y++)
 {
 _putchar(' ');
 }
