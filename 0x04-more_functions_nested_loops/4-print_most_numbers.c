@@ -3,7 +3,7 @@
 /**
  * print_most_numbers  - prints the numbers,from 0to9 except2,4
  *
- * Return: void .
+ * Return: always 0 (success) .
 */
 
 void print_most_numbers(void)
