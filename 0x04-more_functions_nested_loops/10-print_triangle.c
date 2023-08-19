@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * print_triangle - prints a square
  * @size:  is the size of the triangle
@@ -13,7 +12,7 @@ _putchar('\n');
 else
 {
 int x, y;
-for (x = 1; x < size; x++)
+for (x = 1; x <= size; x++)
 {
 for (y = 1; y < size; y++)
 {
