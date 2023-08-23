@@ -9,8 +9,8 @@
 * Retrun: void
 */
 void print_rev(char *s);
-{
 int z = 0;
+{
 while (s[z])
 z++;
 while (z--)
