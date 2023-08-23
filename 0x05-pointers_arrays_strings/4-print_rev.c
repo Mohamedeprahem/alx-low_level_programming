@@ -14,7 +14,8 @@ int z = 0;
 while (s[z])
 z++;
 while (z--)
-{ _putchar(s[z]);
+{
+_putchar(s[z]);
 }
 _putchar('\n');
 }
