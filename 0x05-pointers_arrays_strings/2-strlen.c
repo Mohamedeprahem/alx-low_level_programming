@@ -2,20 +2,15 @@
 #include <stdio.h>
 
 /**
- * _strlen -  function that returns the length of a string
- *
- *@s : char 
- *
- *
- * Retrun : Always 0
-\*
-
- int _strlen(char *s)
+* _strlen - returns the length of a string
+*@s: string
+*Retrun: length of string
+*/
+int _strlen(char *s)
 {
-
-int y = 0
-while (*s!= '\0')
-y++;
+int length;
+for (length = 0; *s != '\0'; s++)
+length++;
 s++;
-return (0);
+return (length);
 }
