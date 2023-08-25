@@ -1,5 +1,6 @@
+#include "main.h"
 /**
- * _strncat - a function that copies a string.
+ * _strncat - a function that concatenates two strings.
  * @dest: first value
  * @src: second value
  * @n: third value
@@ -8,18 +9,20 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
+int x;
 int y;
+x = 0;
+while (dest[x] != '\0')
+{
+x++;
+}
 y = 0;
 while (y < n && src[y] != '\0')
 {
 dest[y] = src[y];
+x++;
 y++;
 }
-while (y < n)
-{
-	dest[y] = '\0';
-	y++;
-}
-
+dest[x] = '\0';
 return (dest);
 }
