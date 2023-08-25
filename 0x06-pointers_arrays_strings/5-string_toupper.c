@@ -3,18 +3,18 @@
 /**
  * string_toupper - changes all lowercase letters of a string to uppercase
  *
- * @r: ptr
+ * @r: value
  * Return: r
  */
 
 char *string_toupper(char *r)
 {
 int s;
-for (s = 0, str[s] != '\0'; s++)
+for (s = 0; r[s] != '\0'; s++)
 {
-if (str[s] >= 97 && str[s] <= 122)
+if (r[s] >= 97 && r[s] <= 122)
 {
-str[s] = str[s] - 32;
+r[s] = r[s] - 32;
 }
 }
 return (r);
