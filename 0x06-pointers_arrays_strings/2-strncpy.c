@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- * _strncat - a function that copies a string.
+ * _strncpy - a function that copies a string.
  * @dest: first value
  * @src: second value
  * @n: third value
  *
  * Return: dest
  */
-char *_strncat(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
 int y;
 y = 0;
@@ -18,8 +18,8 @@ y++;
 }
 while (y < n)
 {
-        dest[y] = '\0';
-        y++;
+dest[y] = '\0';
+y++;
 }
 
 return (dest);
