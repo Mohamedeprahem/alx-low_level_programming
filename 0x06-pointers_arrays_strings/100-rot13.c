@@ -9,8 +9,8 @@
 char *rot13(char *l)
 {
 int i;
-char y = "abcdefghijklmnopqrstuvwxyz"
-char Y = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+char y[] = "abcdefghijklmnopqrstuvwxyz";
+char Y[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 while (*l)
 char *ptr = l;
 {
