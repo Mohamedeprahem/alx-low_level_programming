@@ -2,27 +2,31 @@
 #include <stdio.h>
 /**
  * _sqrt_recursion  - the natural square root of a number
- *@n:first number
- *@y:second number
-  * Return: int
- */
-int _sqrt_recursion(int n)
-{
-if (n < 0)
-return (-1);
-return  _square_recursion(int n, 0)
-}
-/**
- * _sqrt_recursion  - the natural square root of a number
+ *square - square root
  *@n:first number
  *@y:second number
  * Return: int
  */
-int _square_recursion(int n, int y)
+int square(int n, int y);
+int _sqrt_recursion(int n)
 {
-if (y * y > n)
-return (-1);
+return  (square(n, 1));
+}
+
+/**
+ * square  - the natural square root of a number
+ *@n:first number
+ *@y:second number
+ * Return: int
+ */
+int square(int n, int y)
+{
 if (y * y == n)
 return (y);
-return (_square_recursion(n, y + 1));
+else
+if (y * y < n)
+return (square(n, y + 1));
+else
+return (-1);
+}
 }
