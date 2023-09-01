@@ -7,7 +7,7 @@
  *@y:second number
  * Return: int
  */
-int modified_sqrt_recursion(int n, int y)
+int _sqrt_recursion(int n, int y)
 {
 if (y * y > n)
 return (-1);
