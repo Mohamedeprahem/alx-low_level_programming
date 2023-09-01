@@ -3,8 +3,8 @@
 
 /**
  * _pow_recursion -  returns the value of x raised to the power of y
- *@: first nomber
- *@: second nomber
+ *@x: first nomber
+ *@y: second nomber
  * Return: int
  */
 int _pow_recursion(int x, int y)
