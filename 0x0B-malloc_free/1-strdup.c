@@ -15,6 +15,7 @@ char *c;
 if (str == NULL)
 return (NULL);
 for (; str[size] != '\0'; size++)
+;
 c = malloc(size * sizeof(*str) + 1);
 if (c == 0)
 return (NULL);
@@ -23,6 +24,5 @@ else
 for (; v < size; v++)
 c[v] = str[v];
 }
-free(c);
 return (c);
 }
