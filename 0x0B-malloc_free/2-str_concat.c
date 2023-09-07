@@ -3,6 +3,19 @@
 #include <stdlib.h>
 
 /**
+ *_strlen - length of a string
+ *@s: string
+ *Return: size
+ */
+int _strlen(char *s)
+{
+int size = 0;
+for (; s[size] != '\0'; size++)
+;
+return (size);
+}
+
+/**
  * *str_concat - a function that concatenates two strings.
  *@s1: string1
  *@s2: string2
