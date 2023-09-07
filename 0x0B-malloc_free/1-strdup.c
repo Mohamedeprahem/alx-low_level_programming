@@ -23,6 +23,6 @@ else
 for (; v < size; v++)
 c[v] = str[v];
 }
-free(str);
+free(c);
 return (c);
 }
