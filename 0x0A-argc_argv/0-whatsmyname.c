@@ -10,6 +10,6 @@
 int main(int argc, char const *argv[])
 {
 (void)argc;
-printf("$\n", argv[0]);
+printf("%$\n", argv[0]);
 return (0);
 }
