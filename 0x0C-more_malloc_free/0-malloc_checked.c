@@ -1,13 +1,9 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <limits.h>
 
 /**
- * *malloc_checked - Returns a pointer to the allocated memory
- *
+ * *malloc_checked -  allocates memory using malloc
  * @b: variable
- * Return: Always 0.
+ * Return: pointer to array
  */
 void *malloc_checked(unsigned int b)
 {
