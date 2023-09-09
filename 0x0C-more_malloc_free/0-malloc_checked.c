@@ -6,6 +6,7 @@
 /**
  * *malloc_checked - Returns a pointer to the allocated memory
  *
+ * @a: variable
  * Return: Always 0.
  */
 void *malloc_checked(unsigned int b)
