@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
-
+#include <stdio.h>
 /**
  * array_range -  function that creates an array of integers.
  * @min: min range
@@ -19,6 +19,6 @@ p = malloc(sizeof(int) * y);
 if (p == NULL)
 return (NULL);
 for (x = 0; min <= max; x++)
-p[y] = min++;
+p[x] = min++;
 return (p);
 }

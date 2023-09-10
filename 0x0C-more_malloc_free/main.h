@@ -1,5 +1,5 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef main_h
+#define main_H
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -16,4 +16,5 @@ void print_int(unsigned long int n);
 int_strlen(char *s);
 void errors(void);
 int is_digit(char *s);
+
 #endif
