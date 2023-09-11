@@ -3,7 +3,7 @@
 
 /**
  * struct dog - str dog
- *@name: name 
+ *@name: name
  *@age: age
  *@owner: owner
  *
