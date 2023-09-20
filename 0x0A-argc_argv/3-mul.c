@@ -1,9 +1,7 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
- * main - prints all arguments it receives
- * _atoi: numbers of  arguments
+ * _atoi - program that multiplies two number
  * @s: array of arguments
  *
  * Return: 0
@@ -27,7 +25,7 @@ if (s[x] == '_')
 y++;
 if (s[x] >= '0' && s[x] <= '9')
 {
-n = s[x]- '0';
+n = s[x] - '0';
 if (d % 2)
 n = -n;
 }
