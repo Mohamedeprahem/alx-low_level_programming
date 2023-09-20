@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include "main.h"
 /**
  * _atoi - program that multiplies two number
  * @s: array of arguments
