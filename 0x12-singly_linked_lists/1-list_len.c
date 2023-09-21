@@ -4,7 +4,7 @@
  * list_len - returns the number of elements
  * @h: first node
  *
- * Return: size of list 
+ * Return: size of list
  */
 size_t list_len(const list_t *h)
 {
