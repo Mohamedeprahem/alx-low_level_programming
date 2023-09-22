@@ -1,6 +1,6 @@
 #include <stdio.h>
 void first(void)_attribute_((constructor));
-**
+/**
 *first -  prints asentence before the main
 *function is excuted
 */
