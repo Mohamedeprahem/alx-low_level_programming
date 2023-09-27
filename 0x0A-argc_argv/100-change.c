@@ -6,7 +6,7 @@
  * @argv : array of arguments
  * @argc : commandline arguments numbers
  *
- * Retrun: 0-success, non-zero-fail.
+ * Return: 0-success, non-zero-fail.
  */
 
 int main(int argc, char *argv[])
