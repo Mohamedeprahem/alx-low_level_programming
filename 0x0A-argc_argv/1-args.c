@@ -13,6 +13,6 @@ int main(int argc, char *argv[])
 
 {
 (void)argv;
-printf("no of arguments(argc) %d \n", argc);
+printf("%d \n", argc - 1);
 return (0);
 }
