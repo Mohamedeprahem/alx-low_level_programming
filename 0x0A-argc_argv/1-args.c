@@ -6,13 +6,12 @@
  * @argc: arguments count
  * @argv: arguments value
  *
- * Return: always 0
+ * Return: 0
 */
 
-int main(int argc, char *argv[])
+int main(int argc, char *argv[] _attribute_((unused)))
 
 {
-(void)argv;
 printf("%d \n", argc - 1);
 return (0);
 }
